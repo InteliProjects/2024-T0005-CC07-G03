@@ -1,0 +1,8 @@
+#Requerimentos para startar o projeto em que sera puxado para o docker
+flask
+flask_cors
+flask_sqlalchemy
+pymysql
+bcrypt
+redis
+requests

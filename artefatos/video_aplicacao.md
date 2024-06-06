@@ -1,0 +1,1 @@
+O vídeo excedia o limite de 100mb para push no github, então está disponível em https://youtu.be/3K3-rjs8870

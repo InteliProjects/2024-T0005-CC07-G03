@@ -1,0 +1,10 @@
+version: "3.7"  # Versão do formato do arquivo docker-compose utilizado.
+
+services:  # Define os serviços que serão executados.
+  live:  # Nome do serviço.
+    build: ./  # Especifica o diretório onde está localizado o Dockerfile para construir a imagem do contêiner.
+    image: back-live  # Nome da imagem Docker que será criada.
+    container_name: liveweb  # Nome do contêiner criado a partir dessa imagem.
+    restart: always  # Define a política de reinicialização do contêiner (neste caso, sempre reiniciar).
+    ports:  # Mapeamento de portas entre o host e o contêiner.
+      - "5000:5000"  # Mapeia a porta 8000 do host para a porta 5000 do contêiner.
